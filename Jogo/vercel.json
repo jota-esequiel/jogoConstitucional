@@ -1,6 +1,6 @@
 {
     "functions": {
-      "Jogo/api/*.php": {
+      "/Jogo/api/*.php": {
         "runtime": "vercel-php@0.4.0"
       }
     }
