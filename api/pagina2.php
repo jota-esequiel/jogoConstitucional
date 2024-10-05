@@ -15,7 +15,7 @@
 
             <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                include_once 'DataComponent.php';
+                include_once '../jogoConstitucional/api/DataComponent.php';
 
                 if (isset($_POST['nomeJogador']) && !empty($_POST['nomeJogador'])) {
                     $nomeJogador = $_POST['nomeJogador'];
